@@ -12,7 +12,6 @@ Object.defineProperty(Array.prototype, "flat", {
 });
 
 function findRegionByState(s) {
-  console.log("> Running findRegionByState");
   const tt = Object.keys(regions)
     .map(k => {
       return regions[k].states
