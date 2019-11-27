@@ -1,0 +1,29 @@
+{
+  "name": "region-market",
+  "version": "1.0.0",
+  "description": "A package to provide region name for a particular state or states in a region.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandromoralesjr/region-market.git"
+  },
+  "keywords": [
+    "market",
+    "region",
+    "transportation",
+    "logistics"
+  ],
+  "author": "Alejandro Morales",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alejandromoralesjr/region-market/issues"
+  },
+  "homepage": "https://github.com/alejandromoralesjr/region-market#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "USA": {
+    "key": "USA",
+    "fullName": "USA ALL"
+  },
+  "CAN": {
+    "key": "CAN",
+    "fullName": "CANADA ALL"
+  },
+  "MEX": {
+    "key": "MEX",
+    "fullName": "MEXICO ALL"
+  },
+  "NE": {
+    "key": "NE",
+    "fullName": "NORTHEAST",
+    "states": [
+      {
+        "short": "CT",
+        "full": "Connecticut"
+      },
+      {
+        "short": "DE",
+        "full": "Delaware"
+      },
+      {
+        "short": "MA",
+        "full": "Massachusetts"
+      },
+      {
+        "short": "ME",
+        "full": "Maine"
+      },
+      {
+        "short": "NH",
+        "full": "New Hampshire"
+      },
+      {
+        "short": "NJ",
+        "full": "New Jeresey"
+      },
+      {
+        "short": "NY",
+        "full": "New York"
+      },
+      {
+        "short": "PA",
+        "full": "Pennsylvania"
+      },
+      {
+        "short": "VT",
+        "full": "Vermont"
+      }
+    ]
+  },
+  "SE": {
+    "key": "SE",
+    "fullName": "SOUTHEAST",
+    "states": [
+      {
+        "short": "AL",
+        "full": "Alabama"
+      },
+      {
+        "short": "AR",
+        "full": "Arkansas"
+      },
+      {
+        "short": "FL",
+        "full": "Florida"
+      },
+      {
+        "short": "GA",
+        "full": "Georgia"
+      },
+      {
+        "short": "KY",
+        "full": "Kentucky"
+      },
+      {
+        "short": "LA",
+        "full": "Louisiana"
+      },
+      {
+        "short": "MS",
+        "full": "Mississippi"
+      },
+      {
+        "short": "TN",
+        "full": "Tennessee"
+      }
+    ]
+  },
+  "MATL": {
+    "key": "MATL",
+    "fullName": "MID-ATLANTIC",
+    "states": [
+      {
+        "short": "MD",
+        "full": "Maryland"
+      },
+      {
+        "short": "NC",
+        "full": "North Carolina"
+      },
+      {
+        "short": "SC",
+        "full": "South Carolina"
+      },
+      {
+        "short": "VA",
+        "full": "Virginia"
+      },
+      {
+        "short": "WV",
+        "full": "West Virginia"
+      }
+    ]
+  },
+  "CEN": {
+    "key": "CEN",
+    "fullName": "CENTRAL PLAINS",
+    "states": [
+      {
+        "short": "IA",
+        "full": "Iowa"
+      },
+      {
+        "short": "KS",
+        "full": "Kansas"
+      },
+      {
+        "short": "MN",
+        "full": "Minnesota"
+      },
+      {
+        "short": "ND",
+        "full": "North Dakota"
+      },
+      {
+        "short": "NE",
+        "full": "Nebraska"
+      },
+      {
+        "short": "OK",
+        "full": "Oklahoma"
+      },
+      {
+        "short": "SD",
+        "full": "South Dakota"
+      },
+      {
+        "short": "TX",
+        "full": "Texas"
+      }
+    ]
+  },
+  "MDW": {
+    "key": "MDW",
+    "fullName": "MIDWEST",
+    "states": [
+      {
+        "short": "IL",
+        "full": "Illinois"
+      },
+      {
+        "short": "IN",
+        "full": "Indiana"
+      },
+      {
+        "short": "MI",
+        "full": "Michigan"
+      },
+      {
+        "short": "MO",
+        "full": "Missouri"
+      },
+      {
+        "short": "OH",
+        "full": "Ohio"
+      },
+      {
+        "short": "WI",
+        "full": "Wisconsin"
+      }
+    ]
+  },
+  "SW": {
+    "key": "SW",
+    "fullName": "SOUTHWEST",
+    "states": [
+      {
+        "short": "AZ",
+        "full": "Arizona"
+      },
+      {
+        "short": "NM",
+        "full": "New Mexico"
+      }
+    ]
+  },
+  "MTW": {
+    "key": "MTW",
+    "fullName": "MOUNTAIN WEST",
+    "states": [
+      {
+        "short": "CO",
+        "full": "Colorado"
+      },
+      {
+        "short": "ID",
+        "full": "Idaho"
+      },
+      {
+        "short": "MT",
+        "full": "Montana"
+      },
+      {
+        "short": "UT",
+        "full": "Utah"
+      },
+      {
+        "short": "WV",
+        "full": "West Viriginia"
+      }
+    ]
+  },
+  "PAC": {
+    "key": "PAC",
+    "fullName": "PACIFIC COAST",
+    "states": [
+      {
+        "short": "CA",
+        "full": "California"
+      },
+      {
+        "short": "NV",
+        "full": "Nevada"
+      },
+      {
+        "short": "OR",
+        "full": "Oregon"
+      },
+      {
+        "short": "WA",
+        "full": "Washington"
+      }
+    ]
+  }
+}
