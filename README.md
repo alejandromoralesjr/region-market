@@ -2,6 +2,19 @@
 
 A package to provide region market information based on a particular state or to provide states information for a particular region.
 
+#### Installing
+
+```bash
+npm install region-market
+```
+
+#### Usage
+
+```javascript
+const regionMarket = require("region-market");
+import { findRegionByState, findStatesInRegion } from "region-market";
+```
+
 ## Methods
 
 ### `findRegionByState(arg)`
