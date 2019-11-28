@@ -1,6 +1,6 @@
 {
   "name": "region-market",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A package to provide region name for a particular state or states in a region.",
   "main": "src/index.js",
   "scripts": {
