@@ -22,9 +22,6 @@
     "url": "https://github.com/alejandromoralesjr/region-market/issues"
   },
   "homepage": "https://github.com/alejandromoralesjr/region-market#readme",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "devDependencies": {
     "nodemon": "2.0.1"
   }
