@@ -103,7 +103,7 @@ const regions = getAllRegions();
   //   states: 'MD, NC, SC, VA, WV'
   // },
   // {
-  //   region: 'CENTRAL PLAINS',
+  //   region: 'CENTRAL',
   //   regionKey: 'CEN',
   //   states: 'IA, KS, MN, ND, NE, OK, SD, TX'
   // },
