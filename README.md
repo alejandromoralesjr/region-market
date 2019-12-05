@@ -2,6 +2,23 @@
 
 A package to provide region market information based on a particular state or to provide states information for a particular region.
 
+#### Installing
+
+```bash
+npm install region-market
+```
+
+#### Usage
+
+```javascript
+const regionMarket = require("region-market");
+import {
+  findRegionByState,
+  findStatesInRegion,
+  getAllRegions
+} from "region-market";
+```
+
 ## Methods
 
 ### `findRegionByState(arg)`
@@ -45,4 +62,70 @@ const region2 = findStatesInRegion("SOUTHEAST");
 // { short: 'MS', full: 'Mississippi' },
 // { short: 'TN', full: 'Tennessee' }
 // ]
+```
+
+### `getAllRegions()`
+
+- Argument: none
+- Returns an `array` with all regions
+
+```javascript
+const regions = getAllRegions();
+// Returns [
+  // {
+  //   region: 'USA ALL',
+  //   regionKey: 'USA',
+  //   states: 'USA ALL'
+  // },
+  // {
+  //   region: 'CANADA ALL',
+  //   regionKey: 'CAN',
+  //   states: 'CANADA ALL'
+  // },
+  // {
+  //   region: 'MEXICO ALL',
+  //   regionKey: 'MEX',
+  //   states: 'MEXICO ALL'
+  // },
+  // {
+  //   region: 'NORTHEAST',
+  //   regionKey: 'NE',
+  //   states: 'CT, DE, MA, ME, NH, NJ, NY, PA, VT'
+  // },
+  // {
+  //   region: 'SOUTHEAST',
+  //   regionKey: 'SE',
+  //   states: 'AL, AR, FL, GA, KY, LA, MS, TN'
+  // },
+  // {
+  //   region: 'MID-ATLANTIC',
+  //   regionKey: 'MATL',
+  //   states: 'MD, NC, SC, VA, WV'
+  // },
+  // {
+  //   region: 'CENTRAL PLAINS',
+  //   regionKey: 'CEN',
+  //   states: 'IA, KS, MN, ND, NE, OK, SD, TX'
+  // },
+  // {
+  //   region: 'MIDWEST',
+  //   regionKey: 'MDW',
+  //   states: 'IL, IN, MI, MO, OH, WI'
+  // },
+  // {
+  //   region: 'SOUTHWEST',
+  //   regionKey: 'SW',
+  //   states: 'AZ, NM'
+  // },
+  // {
+  //   region: 'MOUNTAIN WEST',
+  //   regionKey: 'MTW',
+  //   states: 'CO, ID, MT, UT, WV'
+  // },
+  // {
+  //   region: 'PACIFIC COAST',
+  //   regionKey: 'PAC',
+  //   states: 'CA, NV, OR, WA'
+  // }
+]
 ```
