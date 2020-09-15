@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/alejandromoralesjr/region-market.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "keywords": [
     "market",
     "region",
